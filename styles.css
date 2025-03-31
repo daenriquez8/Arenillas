@@ -1,0 +1,169 @@
+body{
+    background-color: #343a40;
+}
+.topbar {
+    background-color: #262A2B; /* Color oscuro */
+    padding: 10px 20px;
+}
+.topbar .navbar-brand img {
+    height: 40px;
+}
+.topbar .page-title {
+    font-size: 20px;
+    color: #D76822;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+*{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+.nav-link {
+    color:#D0D0D0 !important;
+}
+.carousel-container {
+    width: 98%;
+    margin: auto;
+    border-radius: 20px; /* Bordes redondeados */
+    overflow: hidden; /* Asegura que las imágenes no sobresalgan */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para mejor apariencia */
+}
+.carousel-inner img {
+    width: 100%;
+    height: 400px; /* Ajusta la altura según lo necesites */
+    object-fit: cover; /* Mantiene proporción y recorta si es necesario */
+}
+.carousel-caption-custom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 30px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.884), rgba(0, 0, 0, 0.575)); /* Degradado */
+    color: white;
+    text-align: center;
+}
+.container-custom {
+    width: 90%; /* Ajusta el ancho total del contenedor */
+    margin: auto;
+    display: flex;
+    gap: 20px; /* Espaciado entre columnas */
+}
+
+.left-section {
+    flex: 1; /* Sección más pequeña */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.center-section {
+    flex: 3; /* Sección más grande */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.right-section {
+    flex: 2; /* Sección mediana */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.divider {
+    width: 2px; /* Grosor de la línea */
+    background-color: #333; /* Color de la línea */
+    height: auto; /* Ocupa toda la altura disponible */
+}
+
+.map_al{
+   width: 100%;
+   vertical-align: middle;
+   padding: 20px;
+   justify-content: center;
+   align-items: center;
+   height: 50vh;
+}
+.map_amb{
+    width: 100%;
+    height: 50vh;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.title_seccion{
+    background-color: white;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    color:black;
+    text-align: center;
+}
+
+.container_mt-3{
+    background-color:#343a40;
+}
+
+.fichas_amb{
+    width: 100%;
+    vertical-align: middle;
+    padding: 45px;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.contenedor{
+    background-color:#343a40;
+    width: 100%;
+    height: 100vh;
+    float: left;
+}
+
+#contenedor1{
+    background-color: #343a40;
+    width: 45%;
+    height: 100vh;
+    float: right;
+
+}
+
+#contenedor2{
+    background-color:#343a40;
+    width: 49%;
+    height: 100vh;
+    float: left;
+}
+
+#mapaVisible{
+    width: 100%;
+    height: 80vh;
+    vertical-align: middle;
+}
+
+.description{
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.subtitulo_pag{
+    color: white;
+    text-align: center;
+    margin: 5px 5px;
+    vertical-align: middle;
+}
+
+.left-section{
+   color: white; 
+}
+
+.center-section{
+    color: white;
+}
+
+.right-section{
+    color: white;
+}
